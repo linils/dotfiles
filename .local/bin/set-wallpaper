@@ -1,0 +1,12 @@
+#!/bin/sh
+
+SELECTED_IMAGE=$(nsxiv -bto "$1" | head -n 1)
+
+[ -z "$SELECTED_IMAGE" ] && exit 1
+
+feh --bg-fill "$SELECTED_IMAGE"
+
+WALLPAPER_LINK="$HOME/.local/share/wallpaper"
+mkdir -p "$(dirname "$WALLPAPER_LINK")"
+
+ln -sf "$SELECTED_IMAGE" "$WALLPAPER_LINK"
