@@ -1,0 +1,1 @@
+/home/linus/.config/emacs/straight/repos/seq/seq-pkg.el

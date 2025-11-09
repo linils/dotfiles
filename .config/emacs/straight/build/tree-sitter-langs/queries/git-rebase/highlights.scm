@@ -1,0 +1,1 @@
+/home/linus/.config/emacs/straight/repos/tree-sitter-langs/queries/git-rebase/highlights.scm

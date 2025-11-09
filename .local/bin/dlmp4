@@ -1,4 +1,5 @@
 #!/bin/sh
 
 url=$1
-yt-dlp -f mp4 "$url"
+output_path=$2
+yt-dlp -f mp4 -o "$output_path" "$url"

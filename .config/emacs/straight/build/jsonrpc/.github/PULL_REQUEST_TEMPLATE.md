@@ -1,0 +1,1 @@
+/home/linus/.config/emacs/straight/repos/jsonrpc/.github/PULL_REQUEST_TEMPLATE.md

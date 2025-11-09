@@ -1,0 +1,22 @@
+*.foreground:  #E1E1E1
+*.background:  #151515
+*.cursorColor: #727272
+
+! 16-color palette
+*.color0:  #151515   
+*.color1:  #D7867D   
+*.color2:  #85B884   
+*.color3:  #FFE591   
+*.color4:  #3982B7   
+*.color5:  #AA749F   
+*.color6:  #60B197   
+*.color7:  #D6D6D6   
+
+*.color8:  #373737   
+*.color9:  #924843   
+*.color10: #578266   
+*.color11: #D6BD87   
+*.color12: #6196C2   
+*.color13: #B49273   
+*.color14: #BAD7FF   
+*.color15: #E1E1E1

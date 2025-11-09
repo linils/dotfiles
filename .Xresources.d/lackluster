@@ -1,0 +1,32 @@
+! Lackluster theme 
+
+*.foreground: #DEEEED
+*.background: #0A0A0A
+*.cursorColor: #DEEEED
+
+*.color0: #080808
+*.color8: #444444
+
+*.color1: #D70000
+*.color9: #D70000
+
+*.color2: #789978
+*.color10: #789978
+
+*.color3: #ffAA88
+*.color11: #ffAA88
+
+*.color4: #7788AA
+*.color12: #7788AA
+
+*.color5: #D7007D
+*.color13: #D7007D
+
+! Cyan is set to lack
+*.color6: #708090
+*.color14: #708090
+
+! White is set to luster
+*.color7: #DEEEED
+*.color15: #DEEEED
+

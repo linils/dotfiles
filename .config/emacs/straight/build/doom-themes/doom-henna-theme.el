@@ -1,0 +1,1 @@
+/home/linus/.config/emacs/straight/repos/themes/themes/doom-henna-theme.el

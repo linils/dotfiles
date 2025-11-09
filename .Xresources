@@ -6,7 +6,4 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 Xft.dpi: 96
 
-!#include ".Xresources.d/jellybeans-nvim-vibrant-dark"
-!#include ".Xresources.d/jellybeans-nvim-vibrant-light"
-#include ".Xresources.d/melange-dark"
-!#include ".Xresources.d/melange-light"
+#include ".Xresources.d/conifer"

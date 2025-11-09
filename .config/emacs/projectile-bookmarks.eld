@@ -1,0 +1,1 @@
+("~/programming/zig/shepherd/" "~/dotfiles/" "~/programming/zig/learn/" "~/programming/c/kronologik/")

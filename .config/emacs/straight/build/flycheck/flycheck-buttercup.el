@@ -1,0 +1,1 @@
+/home/linus/.config/emacs/straight/repos/flycheck/flycheck-buttercup.el

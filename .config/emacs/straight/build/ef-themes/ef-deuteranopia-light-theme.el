@@ -1,0 +1,1 @@
+/home/linus/.config/emacs/straight/repos/ef-themes/ef-deuteranopia-light-theme.el
