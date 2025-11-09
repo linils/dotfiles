@@ -1,1 +1,0 @@
-/home/linus/.config/emacs/straight/repos/tree-sitter-langs/queries/rust/highlights.scm

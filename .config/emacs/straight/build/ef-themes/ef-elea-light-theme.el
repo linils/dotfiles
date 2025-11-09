@@ -1,1 +1,0 @@
-/home/linus/.config/emacs/straight/repos/ef-themes/ef-elea-light-theme.el

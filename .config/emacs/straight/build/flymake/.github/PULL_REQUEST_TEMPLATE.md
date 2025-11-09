@@ -1,1 +1,0 @@
-/home/linus/.config/emacs/straight/repos/flymake/.github/PULL_REQUEST_TEMPLATE.md

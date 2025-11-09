@@ -1,1 +1,0 @@
-/home/linus/.config/emacs/straight/repos/geiser/elisp/geiser-mode.el

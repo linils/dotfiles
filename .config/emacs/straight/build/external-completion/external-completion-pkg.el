@@ -1,1 +1,0 @@
-/home/linus/.config/emacs/straight/repos/external-completion/external-completion-pkg.el

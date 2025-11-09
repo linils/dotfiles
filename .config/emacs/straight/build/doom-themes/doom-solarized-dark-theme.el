@@ -1,1 +1,0 @@
-/home/linus/.config/emacs/straight/repos/themes/themes/doom-solarized-dark-theme.el

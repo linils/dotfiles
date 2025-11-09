@@ -1,1 +1,0 @@
-/home/linus/.config/emacs/straight/repos/seq/tests/seq-tests.el

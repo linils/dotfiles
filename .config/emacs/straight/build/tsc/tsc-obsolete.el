@@ -1,1 +1,0 @@
-/home/linus/.config/emacs/straight/repos/elisp-tree-sitter/core/tsc-obsolete.el
