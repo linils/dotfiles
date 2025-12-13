@@ -6,4 +6,4 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 Xft.dpi: 96
 
-#include ".Xresources.d/conifer"
+#include ".Xresources.d/alabaster-dark"

@@ -54,15 +54,23 @@ vim.keymap.set('n', "<leader>q", ":quit<CR>")
 vim.keymap.set('n', "<leader>b", ":bp<CR>")
 
 vim.pack.add({
-        { src = "https://github.com/lucasadelino/conifer.nvim" },
         { src = "https://github.com/stevearc/oil.nvim" },
         { src = "https://github.com/echasnovski/mini.pick" },
         { src = "https://github.com/neovim/nvim-lspconfig" },
+        { src = "https://github.com/nvim-mini/mini.completion" },
         { src = "https://github.com/nvim-treesitter/nvim-treesitter" },
         { src = "https://github.com/psliwka/termcolors.nvim" },
+        { src = "https://github.com/p00f/alabaster.nvim" },
 })
-require "mini.pick".setup()
-require "oil".setup()
+
+require("mini.pick").setup()
+require("oil").setup()
+
+require("mini.completion").setup({
+        delay = { completion = 100000 },
+        lsp_completion = { auto_setup = true },
+})
+vim.keymap.set("i", "<C-Space>", "<C-x><C-o>", { noremap = true })
 
 vim.keymap.set('n', "<leader>f", ":Pick files<CR>")
 vim.keymap.set('n', "<leader>h", ":Pick help<CR>")
@@ -91,5 +99,5 @@ vim.diagnostic.config({
         float = true,
 })
 
-vim.cmd("colorscheme conifer")
 vim.cmd(":hi statusline guibg=NONE")
+vim.cmd.colorscheme("alabaster")

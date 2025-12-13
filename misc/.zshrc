@@ -20,7 +20,7 @@ autoload -U colors && colors
 setopt prompt_subst
 
 autoload -U colors && colors  # Load color definitions
-PS1="%B%F{8}[%F{2}%n%f@%F{6}%M %F{14}%~%F{8}]%f%b$ "
+PS1="%B[%n%f@%M %F{4}%~%F{8}]%f%b$ "
 
 export PATH="$HOME/.local/bin:$PATH"
 

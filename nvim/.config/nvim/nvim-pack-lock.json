@@ -1,8 +1,20 @@
 {
   "plugins": {
+    "alabaster.nvim": {
+      "rev": "1fc9e29",
+      "src": "https://github.com/p00f/alabaster.nvim"
+    },
+    "compline": {
+      "rev": "5504477",
+      "src": "https://github.com/jblais493/compline"
+    },
     "conifer.nvim": {
       "rev": "22da8d6",
       "src": "https://github.com/lucasadelino/conifer.nvim"
+    },
+    "mini.completion": {
+      "rev": "7c5edfc",
+      "src": "https://github.com/nvim-mini/mini.completion"
     },
     "mini.pick": {
       "rev": "96ee37d",
