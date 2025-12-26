@@ -84,4 +84,7 @@
   (setq eglot-ignored-server-capabilities '(:inlayHintProvider)))
 
 (after! projectile
-  (setq projectile-auto-discover nil))
+  (setq projectile-auto-discover nil)
+  (advice-add #'projectile-project-files
+              :before (lambda (&rest _)
+                        (projectile-invalidate-cache nil))))

@@ -1,0 +1,7 @@
+(tool-bar-mode 0)
+(scroll-bar-mode 0)
+(menu-bar-mode 0)
+(column-number-mode 1)
+(global-display-line-numbers-mode 1)
+(global-hl-line-mode 1)
+(setq make-backup-files nil)

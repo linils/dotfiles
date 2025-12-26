@@ -91,12 +91,12 @@ require("nvim-treesitter.configs").setup({
 
 
 vim.diagnostic.config({
-        virtual_text = true,
-        signs = true,
+        virtual_text = false,
+        signs = false,
         update_in_insert = false,
-        underline = true,
+        underline = false,
         severity_sort = false,
-        float = true,
+        float = false,
 })
 
 vim.cmd(":hi statusline guibg=NONE")
